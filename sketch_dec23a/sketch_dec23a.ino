@@ -6,12 +6,12 @@
 #include <UniversalTelegramBot.h>
 
 // akses wifi
-const char* ssid = "BLACK";          // Nama WiFi untuk koneksi
-const char* password = "NagaPage248";  // Password WiFi
+const char* ssid = "";          // Nama WiFi untuk koneksi
+const char* password = "";  // Password WiFi
 
 // Telegram Bot
-const char* botToken = "7544579849:AAGh_SjID1Mi-JxTSpHvB0GhzEKeMVvFZIw";  // Token bot Telegram
-const char* chatID = "1042807202";                                        // ID chat Telegram untuk menerima pesan
+const char* botToken = "";  // Token bot Telegram
+const char* chatID = "";                                        // ID chat Telegram untuk menerima pesan
 
 // Initialize Telegram Bot
 WiFiClientSecure client;
